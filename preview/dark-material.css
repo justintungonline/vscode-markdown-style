@@ -1,6 +1,17 @@
+/* original https://github.com/raycon/vscode-markdown-style 
+combined with https://github.com/sindresorhus/github-markdown-css to match github style*/
+
+body {
+	color: white;
+}
+
 .vscode-dark a {
 	color: #61AFEF;
 }
+
+/* .vscode-dark span, li, ul, p, td {
+	color: #d3d6d9;
+} */
 
 .vscode-dark h1,
 .vscode-dark h2,
@@ -8,8 +19,42 @@
 .vscode-dark h4,
 .vscode-dark h5,
 .vscode-dark h6 {
-	font-weight: 600;
-	color: #E06C75;
+	/* color: #E06C75; */
+	color: #d3d6d9;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.vscode-dark h1  {
+	font-size: 2em;
+    margin: .67em 0;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;	
+}
+
+.vscode-dark h2 {
+	font-size: 1.7em;
+    margin: .67em 0;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;	
+}
+
+.vscode-dark h3 {
+	font-size: 1.5em;
+}
+
+.vscode-dark h4 {
+	font-size: 1.1em;
+}
+
+.vscode-dark h5 {
+	font-size: 1.1em;
+}
+
+.vscode-dark h6 {
+	font-size: 1.1em;
 }
 
 .vscode-dark,
